@@ -1,13 +1,13 @@
 // UpgradedDashboard.tsx
-import React, { useMemo, useState } from "react";
+import  { useMemo, useState } from "react";
 import {
   CheckCircle,
   Clock,
   XCircle,
   Phone,
   Users,
-  DollarSign,
-  Star,
+ // DollarSign,
+ // Star,
   Menu,
   Bell,
 } from "lucide-react";
@@ -50,7 +50,7 @@ export default function UpgradedDashboard() {
   // UI State
   const [filter, setFilter] = useState("all");
   const [search, setSearch] = useState("");
-  const [showOnlyUpcoming, setShowOnlyUpcoming] = useState(false);
+  //const [showOnlyUpcoming, setShowOnlyUpcoming] = useState(false);
   const [notifOpen, setNotifOpen] = useState(false);
 
   // Booking Stats
